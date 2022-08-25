@@ -2,7 +2,7 @@
 int[] spoint = new int[3];
 double distance = 0;
 
-int[] ReadСoord()
+int[] ReadСoord()//Заполнение массива точки.
 {
   int[] temp = new int[3];
 
@@ -26,7 +26,7 @@ spoint = ReadСoord();
 distance = Math.Sqrt(Math.Pow((spoint[0]-fpoint[0]),2)+Math.Pow((spoint[1]-fpoint[1]),2)+Math.Pow((spoint[2]-fpoint[2]),2));
 
 
-static void WriteСoord(int[] value)
+static void WriteСoord(int[] value) //Вывод координат точки. (x, y, z.)
 {
   System.Console.Write($"{value[0]}, ");
   System.Console.Write($"{value[1]}, ");

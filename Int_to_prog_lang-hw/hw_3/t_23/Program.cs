@@ -1,6 +1,6 @@
 ﻿
 
-double[] TofC(int value)
+double[] TofC(int value) // Заполнение массива кубами.
 {
     int count = 0;
     double[] temp = new double[value];
@@ -16,7 +16,7 @@ double[] TofC(int value)
 
 }
 
-static void WriteT(double[] value)
+static void WriteT(double[] value) // Вывод массива кубов.
 {
  for (int i = 0; i < value.Length; i++)
  {
